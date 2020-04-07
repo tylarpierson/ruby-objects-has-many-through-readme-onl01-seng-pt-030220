@@ -7,7 +7,6 @@ class Waiter
     @name = name 
     @yrs_expierence = yrs_expierence
     @@all << self 
-    
   end 
   
   def self.all 
